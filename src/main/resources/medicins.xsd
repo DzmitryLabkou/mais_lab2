@@ -1,0 +1,60 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <!-- Корневой элемент -->
+    <xs:element name="Medicins">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Medicin" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Name" type="xs:string"/>
+                            <xs:element name="Pharm" type="xs:string"/>
+                            <xs:element name="Group" type="xs:string"/>
+                            <xs:element name="Analogs">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Analog" type="xs:string" maxOccurs="unbounded"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="Versions">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Version" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="Form" type="xs:string"/>
+                                                    <xs:element name="Manufacturer" type="xs:string"/>
+                                                    <xs:element name="Certificate">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="Number" type="xs:string"/>
+                                                                <xs:element name="Issued" type="xs:date"/>
+                                                                <xs:element name="Expires" type="xs:date"/>
+                                                                <xs:element name="Organization" type="xs:string"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="Package">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="Type" type="xs:string"/>
+                                                                <xs:element name="Quantity" type="xs:integer"/>
+                                                                <xs:element name="Price" type="xs:decimal"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="Dosage" type="xs:string"/>
+                                                    <xs:element name="Frequency" type="xs:string"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

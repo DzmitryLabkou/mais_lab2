@@ -1,0 +1,54 @@
+<Medicins>
+    <Medicin Id="001" Name="Aspirin">
+        <Pharm>Bayer</Pharm>
+        <Group>Analgesics</Group>
+        <Analogs>
+            <Analog>Acetylsalicylic acid</Analog>
+        </Analogs>
+        <Versions>
+            <Version>
+                <Form>Tablets</Form>
+                <Manufacturer>Bayer</Manufacturer>
+                <Certificate>
+                    <Number>123456789</Number>
+                    <Issued>2022-01-01</Issued>
+                    <Expires>2027-01-01</Expires>
+                    <Organization>FDA</Organization>
+                </Certificate>
+                <Package>
+                    <Type>Blister</Type>
+                    <Quantity>20</Quantity>
+                    <Price>100</Price>
+                </Package>
+                <Dosage>100mg</Dosage>
+                <Frequency>2 times a day</Frequency>
+            </Version>
+        </Versions>
+    </Medicin>
+    <Medicin Id="002" Name="Paracetamol">
+        <Pharm>Johnson &amp; Johnson</Pharm>
+        <Group>Antipyretics</Group>
+        <Analogs>
+            <Analog>Tylenol</Analog>
+        </Analogs>
+        <Versions>
+            <Version>
+                <Form>Capsules</Form>
+                <Manufacturer>Johnson &amp; Johnson</Manufacturer>
+                <Certificate>
+                    <Number>987654321</Number>
+                    <Issued>2021-05-01</Issued>
+                    <Expires>2026-05-01</Expires>
+                    <Organization>FDA</Organization>
+                </Certificate>
+                <Package>
+                    <Type>Blister</Type>
+                    <Quantity>30</Quantity>
+                    <Price>150</Price>
+                </Package>
+                <Dosage>500mg</Dosage>
+                <Frequency>Once a day</Frequency>
+            </Version>
+        </Versions>
+    </Medicin>
+</Medicins>

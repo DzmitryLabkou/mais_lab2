@@ -1,0 +1,436 @@
+<Medicins>
+    <Medicin Id="001" Name="Aspirin">
+        <Pharm>Bayer</Pharm>
+        <Group>Analgesics</Group>
+        <Analogs>
+            <Analog>Acetylsalicylic acid</Analog>
+        </Analogs>
+        <Versions>
+            <Version>
+                <Form>Tablets</Form>
+                <Manufacturer>Bayer</Manufacturer>
+                <Certificate>
+                    <Number>123456789</Number>
+                    <Issued>2022-01-01</Issued>
+                    <Expires>2027-01-01</Expires>
+                    <Organization>FDA</Organization>
+                </Certificate>
+                <Package>
+                    <Type>Blister</Type>
+                    <Quantity>20</Quantity>
+                    <Price>100</Price>
+                </Package>
+                <Dosage>100mg</Dosage>
+                <Frequency>2 times a day</Frequency>
+            </Version>
+        </Versions>
+    </Medicin>
+
+    <Medicin Id="002" Name="Paracetamol">
+        <Pharm>Johnson &amp; Johnson</Pharm>
+        <Group>Antipyretics</Group>
+        <Analogs>
+            <Analog>Tylenol</Analog>
+        </Analogs>
+        <Versions>
+            <Version>
+                <Form>Capsules</Form>
+                <Manufacturer>Johnson &amp; Johnson</Manufacturer>
+                <Certificate>
+                    <Number>987654321</Number>
+                    <Issued>2021-05-01</Issued>
+                    <Expires>2026-05-01</Expires>
+                    <Organization>FDA</Organization>
+                </Certificate>
+                <Package>
+                    <Type>Blister</Type>
+                    <Quantity>30</Quantity>
+                    <Price>150</Price>
+                </Package>
+                <Dosage>500mg</Dosage>
+                <Frequency>Once a day</Frequency>
+            </Version>
+        </Versions>
+    </Medicin>
+
+    <Medicin Id="003" Name="Ibuprofen">
+        <Pharm>Pfizer</Pharm>
+        <Group>NSAIDs</Group>
+        <Analogs>
+            <Analog>Advil</Analog>
+            <Analog>Motrin</Analog>
+        </Analogs>
+        <Versions>
+            <Version>
+                <Form>Tablets</Form>
+                <Manufacturer>Pfizer</Manufacturer>
+                <Certificate>
+                    <Number>654321098</Number>
+                    <Issued>2020-10-10</Issued>
+                    <Expires>2025-10-10</Expires>
+                    <Organization>FDA</Organization>
+                </Certificate>
+                <Package>
+                    <Type>Bottle</Type>
+                    <Quantity>100</Quantity>
+                    <Price>200</Price>
+                </Package>
+                <Dosage>200mg</Dosage>
+                <Frequency>3 times a day</Frequency>
+            </Version>
+        </Versions>
+    </Medicin>
+
+    <Medicin Id="004" Name="Amoxicillin">
+        <Pharm>GlaxoSmithKline</Pharm>
+        <Group>Antibiotics</Group>
+        <Analogs>
+            <Analog>Penicillin</Analog>
+        </Analogs>
+        <Versions>
+            <Version>
+                <Form>Capsules</Form>
+                <Manufacturer>GlaxoSmithKline</Manufacturer>
+                <Certificate>
+                    <Number>112233445</Number>
+                    <Issued>2019-03-15</Issued>
+                    <Expires>2024-03-15</Expires>
+                    <Organization>FDA</Organization>
+                </Certificate>
+                <Package>
+                    <Type>Bottle</Type>
+                    <Quantity>60</Quantity>
+                    <Price>300</Price>
+                </Package>
+                <Dosage>250mg</Dosage>
+                <Frequency>3 times a day</Frequency>
+            </Version>
+        </Versions>
+    </Medicin>
+
+    <Medicin Id="005" Name="Metformin">
+        <Pharm>Merck</Pharm>
+        <Group>Antidiabetics</Group>
+        <Analogs>
+            <Analog>Glucophage</Analog>
+        </Analogs>
+        <Versions>
+            <Version>
+                <Form>Tablets</Form>
+                <Manufacturer>Merck</Manufacturer>
+                <Certificate>
+                    <Number>334455667</Number>
+                    <Issued>2020-02-28</Issued>
+                    <Expires>2025-02-28</Expires>
+                    <Organization>FDA</Organization>
+                </Certificate>
+                <Package>
+                    <Type>Blister</Type>
+                    <Quantity>30</Quantity>
+                    <Price>250</Price>
+                </Package>
+                <Dosage>500mg</Dosage>
+                <Frequency>Twice a day</Frequency>
+            </Version>
+        </Versions>
+    </Medicin>
+
+    <Medicin Id="006" Name="Lisinopril">
+        <Pharm>Pfizer</Pharm>
+        <Group>Antihypertensives</Group>
+        <Analogs>
+            <Analog>Zestril</Analog>
+            <Analog>Prinivil</Analog>
+        </Analogs>
+        <Versions>
+            <Version>
+                <Form>Tablets</Form>
+                <Manufacturer>Pfizer</Manufacturer>
+                <Certificate>
+                    <Number>445566778</Number>
+                    <Issued>2021-07-01</Issued>
+                    <Expires>2026-07-01</Expires>
+                    <Organization>FDA</Organization>
+                </Certificate>
+                <Package>
+                    <Type>Blister</Type>
+                    <Quantity>28</Quantity>
+                    <Price>200</Price>
+                </Package>
+                <Dosage>10mg</Dosage>
+                <Frequency>Once a day</Frequency>
+            </Version>
+        </Versions>
+    </Medicin>
+
+    <Medicin Id="007" Name="Simvastatin">
+        <Pharm>Merck</Pharm>
+        <Group>Cholesterol-lowering agents</Group>
+        <Analogs>
+            <Analog>Zocor</Analog>
+            <Analog>Lipitor</Analog>
+        </Analogs>
+        <Versions>
+            <Version>
+                <Form>Tablets</Form>
+                <Manufacturer>Merck</Manufacturer>
+                <Certificate>
+                    <Number>556677889</Number>
+                    <Issued>2019-11-15</Issued>
+                    <Expires>2024-11-15</Expires>
+                    <Organization>FDA</Organization>
+                </Certificate>
+                <Package>
+                    <Type>Bottle</Type>
+                    <Quantity>90</Quantity>
+                    <Price>180</Price>
+                </Package>
+                <Dosage>20mg</Dosage>
+                <Frequency>Once a day</Frequency>
+            </Version>
+        </Versions>
+    </Medicin>
+
+    <Medicin Id="008" Name="Omeprazole">
+        <Pharm>AstraZeneca</Pharm>
+        <Group>Proton pump inhibitors</Group>
+        <Analogs>
+            <Analog>Prilosec</Analog>
+        </Analogs>
+        <Versions>
+            <Version>
+                <Form>Capsules</Form>
+                <Manufacturer>AstraZeneca</Manufacturer>
+                <Certificate>
+                    <Number>667788990</Number>
+                    <Issued>2020-03-10</Issued>
+                    <Expires>2025-03-10</Expires>
+                    <Organization>FDA</Organization>
+                </Certificate>
+                <Package>
+                    <Type>Blister</Type>
+                    <Quantity>14</Quantity>
+                    <Price>120</Price>
+                </Package>
+                <Dosage>40mg</Dosage>
+                <Frequency>Once a day</Frequency>
+            </Version>
+        </Versions>
+    </Medicin>
+
+    <Medicin Id="009" Name="Levothyroxine">
+        <Pharm>AbbVie</Pharm>
+        <Group>Thyroid hormones</Group>
+        <Analogs>
+            <Analog>Synthroid</Analog>
+        </Analogs>
+        <Versions>
+            <Version>
+                <Form>Tablets</Form>
+                <Manufacturer>AbbVie</Manufacturer>
+                <Certificate>
+                    <Number>778899001</Number>
+                    <Issued>2018-12-20</Issued>
+                    <Expires>2023-12-20</Expires>
+                    <Organization>FDA</Organization>
+                </Certificate>
+                <Package>
+                    <Type>Bottle</Type>
+                    <Quantity>100</Quantity>
+                    <Price>230</Price>
+                </Package>
+                <Dosage>100mcg</Dosage>
+                <Frequency>Once a day</Frequency>
+            </Version>
+        </Versions>
+    </Medicin>
+
+    <Medicin Id="010" Name="Clopidogrel">
+        <Pharm>Sanofi</Pharm>
+        <Group>Antiplatelet agents</Group>
+        <Analogs>
+            <Analog>Plavix</Analog>
+        </Analogs>
+        <Versions>
+            <Version>
+                <Form>Tablets</Form>
+                <Manufacturer>Sanofi</Manufacturer>
+                <Certificate>
+                    <Number>889900112</Number>
+                    <Issued>2021-01-05</Issued>
+                    <Expires>2026-01-05</Expires>
+                    <Organization>FDA</Organization>
+                </Certificate>
+                <Package>
+                    <Type>Blister</Type>
+                    <Quantity>30</Quantity>
+                    <Price>250</Price>
+                </Package>
+                <Dosage>75mg</Dosage>
+                <Frequency>Once a day</Frequency>
+            </Version>
+        </Versions>
+    </Medicin>
+
+    <Medicin Id="011" Name="Atorvastatin">
+        <Pharm>Pfizer</Pharm>
+        <Group>Lipid-Lowering Agents</Group>
+        <Analogs>
+            <Analog>Lipitor</Analog>
+        </Analogs>
+        <Versions>
+            <Version>
+                <Form>Tablets</Form>
+                <Manufacturer>Pfizer</Manufacturer>
+                <Certificate>
+                    <Number>445566778</Number>
+                    <Issued>2018-05-15</Issued>
+                    <Expires>2023-05-15</Expires>
+                    <Organization>FDA</Organization>
+                </Certificate>
+                <Package>
+                    <Type>Bottle</Type>
+                    <Quantity>90</Quantity>
+                    <Price>300</Price>
+                </Package>
+                <Dosage>20mg</Dosage>
+                <Frequency>Once a day</Frequency>
+            </Version>
+        </Versions>
+    </Medicin>
+
+    <Medicin Id="012" Name="Amlodipine">
+        <Pharm>Pfizer</Pharm>
+        <Group>Antihypertensives</Group>
+        <Analogs>
+            <Analog>Amlodipine Besylate</Analog>
+        </Analogs>
+        <Versions>
+            <Version>
+                <Form>Tablets</Form>
+                <Manufacturer>Pfizer</Manufacturer>
+                <Certificate>
+                    <Number>556677889</Number>
+                    <Issued>2019-03-10</Issued>
+                    <Expires>2024-03-10</Expires>
+                    <Organization>FDA</Organization>
+                </Certificate>
+                <Package>
+                    <Type>Blister</Type>
+                    <Quantity>30</Quantity>
+                    <Price>150</Price>
+                </Package>
+                <Dosage>5mg</Dosage>
+                <Frequency>Once a day</Frequency>
+            </Version>
+        </Versions>
+    </Medicin>
+
+    <Medicin Id="013" Name="Metoprolol">
+        <Pharm>Novartis</Pharm>
+        <Group>Beta-Blockers</Group>
+        <Analogs>
+            <Analog>Lopressor</Analog>
+        </Analogs>
+        <Versions>
+            <Version>
+                <Form>Tablets</Form>
+                <Manufacturer>Novartis</Manufacturer>
+                <Certificate>
+                    <Number>667788990</Number>
+                    <Issued>2020-01-20</Issued>
+                    <Expires>2025-01-20</Expires>
+                    <Organization>FDA</Organization>
+                </Certificate>
+                <Package>
+                    <Type>Bottle</Type>
+                    <Quantity>60</Quantity>
+                    <Price>200</Price>
+                </Package>
+                <Dosage>50mg</Dosage>
+                <Frequency>Once a day</Frequency>
+            </Version>
+        </Versions>
+    </Medicin>
+
+    <Medicin Id="014" Name="Losartan">
+        <Pharm>Boehringer Ingelheim</Pharm>
+        <Group>Antihypertensives</Group>
+        <Analogs>
+            <Analog>Cozaar</Analog>
+        </Analogs>
+        <Versions>
+            <Version>
+                <Form>Tablets</Form>
+                <Manufacturer>Boehringer Ingelheim</Manufacturer>
+                <Certificate>
+                    <Number>778899001</Number>
+                    <Issued>2021-06-30</Issued>
+                    <Expires>2026-06-30</Expires>
+                    <Organization>FDA</Organization>
+                </Certificate>
+                <Package>
+                    <Type>Blister</Type>
+                    <Quantity>28</Quantity>
+                    <Price>180</Price>
+                </Package>
+                <Dosage>50mg</Dosage>
+                <Frequency>Once a day</Frequency>
+            </Version>
+        </Versions>
+    </Medicin>
+
+    <Medicin Id="015" Name="Sertraline">
+        <Pharm>Pfizer</Pharm>
+        <Group>Antidepressants</Group>
+        <Analogs>
+            <Analog>Zoloft</Analog>
+        </Analogs>
+        <Versions>
+            <Version>
+                <Form>Tablets</Form>
+                <Manufacturer>Pfizer</Manufacturer>
+                <Certificate>
+                    <Number>889900112</Number>
+                    <Issued>2019-09-15</Issued>
+                    <Expires>2024-09-15</Expires>
+                    <Organization>FDA</Organization>
+                </Certificate>
+                <Package>
+                    <Type>Bottle</Type>
+                    <Quantity>60</Quantity>
+                    <Price>220</Price>
+                </Package>
+                <Dosage>100mg</Dosage>
+                <Frequency>Once a day</Frequency>
+            </Version>
+        </Versions>
+    </Medicin>
+
+    <Medicin Id="016" Name="Citalopram">
+        <Pharm>Forest Laboratories</Pharm>
+        <Group>Antidepressants</Group>
+        <Analogs>
+            <Analog>Cipramil</Analog>
+        </Analogs>
+        <Versions>
+            <Version>
+                <Form>Tablets</Form>
+                <Manufacturer>Forest Laboratories</Manufacturer>
+                <Certificate>
+                    <Number>990011223</Number>
+                    <Issued>2020-11-11</Issued>
+                    <Expires>2025-11-11</Expires>
+                    <Organization>FDA</Organization>
+                </Certificate>
+                <Package>
+                    <Type>Blister</Type>
+                    <Quantity>30</Quantity>
+                    <Price>170</Price>
+                </Package>
+                <Dosage>20mg</Dosage>
+                <Frequency>Once a day</Frequency>
+            </Version>
+        </Versions>
+    </Medicin>
+</Medicins>
